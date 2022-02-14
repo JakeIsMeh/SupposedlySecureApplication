@@ -1,44 +1,44 @@
 ﻿# todo
 
-- [ ] Register Form
-  - [ ] First Name
-  - [ ] Last Name
-  - [ ] Credit Card
-    - [ ] Number
-    - [ ] Expiry date
-    - [ ] CVV
-    - [ ] Billing address
-  - [ ] Email
-    - [ ] Enforce uniqueness
-  - [ ] Password
-    - [ ] Min 12 chars
-    - [ ] Use upper case
-    - [ ] Use lower case
-    - [ ] Special character
+- [X] Register Form
+  - [X] First Name
+  - [X] Last Name
+  - [X] Credit Card
+    - [X] Number
+    - [X] Expiry date
+    - [X] CVV
+    - [X] Billing address
+  - [X] Email
+    - [X] Enforce uniqueness
+  - [X] Password
+    - [X] Min 12 chars
+    - [X] Use upper case
+    - [X] Use lower case
+    - [X] Special character
     - [ ] Offer feedback for password
-  - [ ] DoB
+  - [X] DoB
   - [ ] Photo
 
-- [ ] Session
-  - [ ] Timeout
-  - [ ] HTTPS Only Session
+- [X] Session
+  - [X] Timeout
+  - [X] HTTPS Only Session
   - [ ] Redirect after timeout
 
 - [ ] Login
-  - [ ] Lockout after 3 fails
+  - [X] Lockout after 3 fails
   - [ ] Show last login
 
-- [ ] Input Validation
-  - [ ] Anti-SQL-injection
-  - [ ] Input validation
-    - [ ] Client-side
-    - [ ] Server-side
+- [X] Input Validation
+  - [X] Anti-SQL-injection
+  - [X] Input validation
+    - [X] Client-side
+    - [X] Server-side
 
-- [ ] Graceful Error Handling
+- [X] Graceful Error Handling
 
 - [ ] Advanced
-  - [ ] reCaptcha
-  - [ ] Change password
+  - [X] reCaptcha
+  - [X] Change password
   - [ ] Password history
   - [ ] Min/Max Password Age
   - [X] 2FA

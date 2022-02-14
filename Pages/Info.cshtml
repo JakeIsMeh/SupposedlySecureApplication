@@ -1,0 +1,15 @@
+@page
+@using Microsoft.AspNetCore.Http
+@model SupposedlySecureApplication.Pages.InfoModel
+@inject UserManager<ApplicationUser> UserManager
+@inject IHttpContextAccessor HttpContextAccessor
+@{
+    ViewData["Title"] = "Your Info";
+}
+
+<h1>We have your data, here:</h1>
+<ul>
+    <li>
+        Name: 
+    </li>
+</ul>

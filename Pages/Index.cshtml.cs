@@ -5,6 +5,8 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Options;
+using SupposedlySecureApplication.Services;
 
 namespace SupposedlySecureApplication.Pages
 {
@@ -12,9 +14,15 @@ namespace SupposedlySecureApplication.Pages
     {
         private readonly ILogger<IndexModel> _logger;
 
-        public IndexModel(ILogger<IndexModel> logger)
+        private readonly IOptions<Secrets> _secrets;
+
+        public IndexModel(
+            ILogger<IndexModel> logger,
+            IOptions<Secrets> secrets
+            )
         {
             _logger = logger;
+            _secrets = secrets;
         }
 
         public void OnGet()
